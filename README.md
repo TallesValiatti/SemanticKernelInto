@@ -1,7 +1,7 @@
 # Creating an Intelligent Agent for Database Queries with Azure OpenAI
 
-This repo is about developing an agent to query a database containing product sales data.
+This repo demonstrates the implementation of an intelligent agent designed to query a database containing product sales data.
 
-The goal is to create an agent that can engage in fluid and continuous conversation with the user, and, when requested, generate and execute SQL queries on the database. 
+The agent is built to engage in fluid and continuous conversation with users, dynamically generating and executing SQL queries on the database as needed. Powered by Azure OpenAI, the agent leverages advanced natural language processing to understand user intents and translate them into precise database operations.
 
-Azure OpenAI will be used to power the application. The tutorial will guide you through creating the cloud resource, deployment, and saving the necessary information for integration with the Semantic Kernel.
+The implementation integrates the Semantic Kernel, ensuring the agent can perform context-aware interactions and efficiently manage complex queries within a .NET environment. This setup showcases how to build conversational AI that seamlessly interacts with structured data.
